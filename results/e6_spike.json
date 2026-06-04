@@ -1,0 +1,167 @@
+{
+  "total_requests": 1166,
+  "total_attempts": 1166,
+  "hits": 1067,
+  "misses": 99,
+  "hit_rate": 0.9151,
+  "miss_rate": 0.0849,
+  "throughput_rps": 21.744,
+  "elapsed_seconds": 53.62,
+  "latency_p50_ms": 0.254,
+  "latency_p95_ms": 226.082,
+  "avg_latency_hit_ms": 0.279,
+  "avg_latency_miss_ms": 370.024,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -31.1622,
+  "per_query": {
+    "Q1": {
+      "total": 223,
+      "hits": 213,
+      "misses": 10,
+      "hit_rate": 0.9552,
+      "p50_ms": 0.249,
+      "p95_ms": 0.782
+    },
+    "Q2": {
+      "total": 234,
+      "hits": 223,
+      "misses": 11,
+      "hit_rate": 0.953,
+      "p50_ms": 0.253,
+      "p95_ms": 1.212
+    },
+    "Q3": {
+      "total": 246,
+      "hits": 236,
+      "misses": 10,
+      "hit_rate": 0.9593,
+      "p50_ms": 0.25,
+      "p95_ms": 0.78
+    },
+    "Q4": {
+      "total": 226,
+      "hits": 187,
+      "misses": 39,
+      "hit_rate": 0.8274,
+      "p50_ms": 0.261,
+      "p95_ms": 767.158
+    },
+    "Q5": {
+      "total": 237,
+      "hits": 208,
+      "misses": 29,
+      "hit_rate": 0.8776,
+      "p50_ms": 0.255,
+      "p95_ms": 225.777
+    }
+  },
+  "total_retries": 0,
+  "total_recoveries": 0,
+  "total_dlq": 0,
+  "retry_rate": 0.0,
+  "recovery_rate": 0.0,
+  "dlq_rate": 0.0,
+  "peak_backlog_size": 127,
+  "recovery_time_s": null,
+  "backlog_snapshots": [
+    {
+      "timestamp": 1780529766.2307317,
+      "t_rel": 1.5,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529769.6152387,
+      "t_rel": 4.9,
+      "size": 49,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529772.9711106,
+      "t_rel": 8.2,
+      "size": 53,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529776.393759,
+      "t_rel": 11.7,
+      "size": 66,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529779.8034463,
+      "t_rel": 15.1,
+      "size": 54,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529783.1820076,
+      "t_rel": 18.5,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529786.7246244,
+      "t_rel": 22.0,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529790.1946096,
+      "t_rel": 25.5,
+      "size": 127,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529793.5831022,
+      "t_rel": 28.9,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529796.3483133,
+      "t_rel": 31.6,
+      "size": 2,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529799.7047057,
+      "t_rel": 35.0,
+      "size": 1,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529803.2210143,
+      "t_rel": 38.5,
+      "size": 11,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529806.6936762,
+      "t_rel": 42.0,
+      "size": 14,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529810.1323667,
+      "t_rel": 45.4,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529813.5221114,
+      "t_rel": 48.8,
+      "size": 0,
+      "label": "e6_spike"
+    },
+    {
+      "timestamp": 1780529816.890505,
+      "t_rel": 52.2,
+      "size": 0,
+      "label": "e6_spike"
+    }
+  ],
+  "label": "e6_spike",
+  "saved_at": 1780529818.3467395
+}

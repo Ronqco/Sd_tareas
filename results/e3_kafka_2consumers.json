@@ -1,0 +1,131 @@
+{
+  "total_requests": 4000,
+  "total_attempts": 4000,
+  "hits": 3913,
+  "misses": 87,
+  "hit_rate": 0.9782,
+  "miss_rate": 0.0217,
+  "throughput_rps": 126.641,
+  "elapsed_seconds": 31.59,
+  "latency_p50_ms": 0.237,
+  "latency_p95_ms": 0.36,
+  "avg_latency_hit_ms": 0.248,
+  "avg_latency_miss_ms": 398.313,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -8.4209,
+  "per_query": {
+    "Q1": {
+      "total": 794,
+      "hits": 784,
+      "misses": 10,
+      "hit_rate": 0.9874,
+      "p50_ms": 0.234,
+      "p95_ms": 0.351
+    },
+    "Q2": {
+      "total": 840,
+      "hits": 830,
+      "misses": 10,
+      "hit_rate": 0.9881,
+      "p50_ms": 0.236,
+      "p95_ms": 0.347
+    },
+    "Q3": {
+      "total": 819,
+      "hits": 809,
+      "misses": 10,
+      "hit_rate": 0.9878,
+      "p50_ms": 0.239,
+      "p95_ms": 0.339
+    },
+    "Q4": {
+      "total": 773,
+      "hits": 731,
+      "misses": 42,
+      "hit_rate": 0.9457,
+      "p50_ms": 0.24,
+      "p95_ms": 312.017
+    },
+    "Q5": {
+      "total": 774,
+      "hits": 759,
+      "misses": 15,
+      "hit_rate": 0.9806,
+      "p50_ms": 0.238,
+      "p95_ms": 0.351
+    }
+  },
+  "total_retries": 0,
+  "total_recoveries": 0,
+  "total_dlq": 0,
+  "retry_rate": 0.0,
+  "recovery_rate": 0.0,
+  "dlq_rate": 0.0,
+  "peak_backlog_size": 2434,
+  "recovery_time_s": null,
+  "backlog_snapshots": [
+    {
+      "timestamp": 1780529292.7097855,
+      "t_rel": 0.6,
+      "size": 0,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529296.1670728,
+      "t_rel": 4.0,
+      "size": 600,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529299.5696597,
+      "t_rel": 7.4,
+      "size": 1130,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529302.9485674,
+      "t_rel": 10.8,
+      "size": 1661,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529306.4396074,
+      "t_rel": 14.3,
+      "size": 2113,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529309.8595917,
+      "t_rel": 17.7,
+      "size": 2434,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529313.4520879,
+      "t_rel": 21.3,
+      "size": 1977,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529317.005635,
+      "t_rel": 24.9,
+      "size": 963,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529320.3658874,
+      "t_rel": 28.2,
+      "size": 0,
+      "label": "e3_kafka_2consumers"
+    },
+    {
+      "timestamp": 1780529323.8366432,
+      "t_rel": 31.7,
+      "size": 0,
+      "label": "e3_kafka_2consumers"
+    }
+  ],
+  "label": "e3_kafka_2consumers",
+  "saved_at": 1780529323.7146788
+}

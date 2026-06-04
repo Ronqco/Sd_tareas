@@ -1,0 +1,191 @@
+{
+  "total_requests": 1000,
+  "total_attempts": 1097,
+  "hits": 915,
+  "misses": 85,
+  "hit_rate": 0.915,
+  "miss_rate": 0.085,
+  "throughput_rps": 14.601,
+  "elapsed_seconds": 68.49,
+  "latency_p50_ms": 0.305,
+  "latency_p95_ms": 21.887,
+  "avg_latency_hit_ms": 0.379,
+  "avg_latency_miss_ms": 28.341,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -2.0626,
+  "per_query": {
+    "Q1": {
+      "total": 216,
+      "hits": 206,
+      "misses": 10,
+      "hit_rate": 0.9537,
+      "p50_ms": 0.296,
+      "p95_ms": 4.557
+    },
+    "Q2": {
+      "total": 188,
+      "hits": 178,
+      "misses": 10,
+      "hit_rate": 0.9468,
+      "p50_ms": 0.303,
+      "p95_ms": 11.088
+    },
+    "Q3": {
+      "total": 206,
+      "hits": 196,
+      "misses": 10,
+      "hit_rate": 0.9515,
+      "p50_ms": 0.309,
+      "p95_ms": 1.408
+    },
+    "Q4": {
+      "total": 181,
+      "hits": 141,
+      "misses": 40,
+      "hit_rate": 0.779,
+      "p50_ms": 0.317,
+      "p95_ms": 52.476
+    },
+    "Q5": {
+      "total": 209,
+      "hits": 194,
+      "misses": 15,
+      "hit_rate": 0.9282,
+      "p50_ms": 0.304,
+      "p95_ms": 14.974
+    }
+  },
+  "total_retries": 97,
+  "total_recoveries": 28,
+  "total_dlq": 0,
+  "retry_rate": 0.097,
+  "recovery_rate": 0.2887,
+  "dlq_rate": 0.0,
+  "peak_backlog_size": 633,
+  "recovery_time_s": 57.73,
+  "backlog_snapshots": [
+    {
+      "timestamp": 1780529485.1040387,
+      "t_rel": 1.6,
+      "size": 5,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529488.680857,
+      "t_rel": 5.2,
+      "size": 2,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529492.2929003,
+      "t_rel": 8.8,
+      "size": 2,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529495.8458612,
+      "t_rel": 12.4,
+      "size": 147,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529499.257506,
+      "t_rel": 15.8,
+      "size": 311,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529502.6450818,
+      "t_rel": 19.2,
+      "size": 474,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529506.183831,
+      "t_rel": 22.7,
+      "size": 633,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529509.925638,
+      "t_rel": 26.5,
+      "size": 426,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529512.641115,
+      "t_rel": 29.2,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529516.1801517,
+      "t_rel": 32.7,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529519.787392,
+      "t_rel": 36.3,
+      "size": 29,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529523.4446294,
+      "t_rel": 40.0,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529526.980698,
+      "t_rel": 43.5,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529530.5393288,
+      "t_rel": 47.1,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529533.9820073,
+      "t_rel": 50.5,
+      "size": 28,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529537.421958,
+      "t_rel": 54.0,
+      "size": 14,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529540.8320005,
+      "t_rel": 57.4,
+      "size": 14,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529543.2041929,
+      "t_rel": 59.7,
+      "size": 1,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529546.6071217,
+      "t_rel": 63.1,
+      "size": 1,
+      "label": "e4_falla_temporal"
+    },
+    {
+      "timestamp": 1780529550.0205572,
+      "t_rel": 66.6,
+      "size": 0,
+      "label": "e4_falla_temporal"
+    }
+  ],
+  "label": "e4_falla_temporal",
+  "saved_at": 1780529551.9547956
+}

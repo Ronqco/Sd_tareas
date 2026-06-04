@@ -1,0 +1,215 @@
+{
+  "total_requests": 1000,
+  "total_attempts": 1166,
+  "hits": 912,
+  "misses": 88,
+  "hit_rate": 0.912,
+  "miss_rate": 0.088,
+  "throughput_rps": 12.525,
+  "elapsed_seconds": 79.84,
+  "latency_p50_ms": 0.26,
+  "latency_p95_ms": 22.066,
+  "avg_latency_hit_ms": 0.3,
+  "avg_latency_miss_ms": 32.776,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -2.6109,
+  "per_query": {
+    "Q1": {
+      "total": 188,
+      "hits": 178,
+      "misses": 10,
+      "hit_rate": 0.9468,
+      "p50_ms": 0.259,
+      "p95_ms": 10.514
+    },
+    "Q2": {
+      "total": 207,
+      "hits": 196,
+      "misses": 11,
+      "hit_rate": 0.9469,
+      "p50_ms": 0.259,
+      "p95_ms": 10.912
+    },
+    "Q3": {
+      "total": 192,
+      "hits": 182,
+      "misses": 10,
+      "hit_rate": 0.9479,
+      "p50_ms": 0.255,
+      "p95_ms": 10.934
+    },
+    "Q4": {
+      "total": 202,
+      "hits": 160,
+      "misses": 42,
+      "hit_rate": 0.7921,
+      "p50_ms": 0.275,
+      "p95_ms": 54.578
+    },
+    "Q5": {
+      "total": 211,
+      "hits": 196,
+      "misses": 15,
+      "hit_rate": 0.9289,
+      "p50_ms": 0.258,
+      "p95_ms": 13.766
+    }
+  },
+  "total_retries": 166,
+  "total_recoveries": 30,
+  "total_dlq": 6,
+  "retry_rate": 0.166,
+  "recovery_rate": 0.1807,
+  "dlq_rate": 0.006,
+  "peak_backlog_size": 433,
+  "recovery_time_s": 68.82,
+  "backlog_snapshots": [
+    {
+      "timestamp": 1780529621.6589882,
+      "t_rel": 1.5,
+      "size": 1,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529625.1097257,
+      "t_rel": 4.9,
+      "size": 2,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529628.5082715,
+      "t_rel": 8.3,
+      "size": 2,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529631.9733257,
+      "t_rel": 11.8,
+      "size": 95,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529635.534983,
+      "t_rel": 15.4,
+      "size": 266,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529638.0757382,
+      "t_rel": 17.9,
+      "size": 433,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529641.6779177,
+      "t_rel": 21.5,
+      "size": 192,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529645.1951582,
+      "t_rel": 25.0,
+      "size": 46,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529648.6945074,
+      "t_rel": 28.5,
+      "size": 45,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529652.1972597,
+      "t_rel": 32.0,
+      "size": 36,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529655.5864692,
+      "t_rel": 35.4,
+      "size": 36,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529659.0352752,
+      "t_rel": 38.9,
+      "size": 36,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529662.659813,
+      "t_rel": 42.5,
+      "size": 36,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529666.1439002,
+      "t_rel": 46.0,
+      "size": 36,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529669.6372569,
+      "t_rel": 49.5,
+      "size": 35,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529673.1362493,
+      "t_rel": 53.0,
+      "size": 35,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529676.8018389,
+      "t_rel": 56.6,
+      "size": 34,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529680.5574937,
+      "t_rel": 60.4,
+      "size": 30,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529683.975397,
+      "t_rel": 63.8,
+      "size": 30,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529687.3794873,
+      "t_rel": 67.2,
+      "size": 24,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529690.8119655,
+      "t_rel": 70.6,
+      "size": 24,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529694.3257058,
+      "t_rel": 74.2,
+      "size": 9,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529697.7041428,
+      "t_rel": 77.5,
+      "size": 0,
+      "label": "e5_reintentos"
+    },
+    {
+      "timestamp": 1780529701.0771022,
+      "t_rel": 80.9,
+      "size": 0,
+      "label": "e5_reintentos"
+    }
+  ],
+  "label": "e5_reintentos",
+  "saved_at": 1780529700.0138927
+}

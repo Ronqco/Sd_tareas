@@ -1,0 +1,131 @@
+{
+  "total_requests": 4000,
+  "total_attempts": 4000,
+  "hits": 3906,
+  "misses": 94,
+  "hit_rate": 0.9765,
+  "miss_rate": 0.0235,
+  "throughput_rps": 122.986,
+  "elapsed_seconds": 32.52,
+  "latency_p50_ms": 0.252,
+  "latency_p95_ms": 0.944,
+  "avg_latency_hit_ms": 0.328,
+  "avg_latency_miss_ms": 397.74,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -9.0263,
+  "per_query": {
+    "Q1": {
+      "total": 791,
+      "hits": 779,
+      "misses": 12,
+      "hit_rate": 0.9848,
+      "p50_ms": 0.25,
+      "p95_ms": 0.878
+    },
+    "Q2": {
+      "total": 798,
+      "hits": 788,
+      "misses": 10,
+      "hit_rate": 0.9875,
+      "p50_ms": 0.251,
+      "p95_ms": 0.747
+    },
+    "Q3": {
+      "total": 791,
+      "hits": 780,
+      "misses": 11,
+      "hit_rate": 0.9861,
+      "p50_ms": 0.25,
+      "p95_ms": 0.848
+    },
+    "Q4": {
+      "total": 787,
+      "hits": 741,
+      "misses": 46,
+      "hit_rate": 0.9416,
+      "p50_ms": 0.256,
+      "p95_ms": 323.91
+    },
+    "Q5": {
+      "total": 833,
+      "hits": 818,
+      "misses": 15,
+      "hit_rate": 0.982,
+      "p50_ms": 0.255,
+      "p95_ms": 0.979
+    }
+  },
+  "total_retries": 0,
+  "total_recoveries": 0,
+  "total_dlq": 0,
+  "retry_rate": 0.0,
+  "recovery_rate": 0.0,
+  "dlq_rate": 0.0,
+  "peak_backlog_size": 1019,
+  "recovery_time_s": null,
+  "backlog_snapshots": [
+    {
+      "timestamp": 1780529384.3466861,
+      "t_rel": 1.5,
+      "size": 0,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529386.8149555,
+      "t_rel": 4.0,
+      "size": 567,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529390.2249525,
+      "t_rel": 7.4,
+      "size": 1019,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529393.7419555,
+      "t_rel": 10.9,
+      "size": 1013,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529397.461303,
+      "t_rel": 14.6,
+      "size": 83,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529400.9332576,
+      "t_rel": 18.1,
+      "size": 23,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529404.395945,
+      "t_rel": 21.5,
+      "size": 8,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529407.8151274,
+      "t_rel": 25.0,
+      "size": 0,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529411.1660225,
+      "t_rel": 28.3,
+      "size": 0,
+      "label": "e3_kafka_4consumers"
+    },
+    {
+      "timestamp": 1780529414.6049244,
+      "t_rel": 31.7,
+      "size": 0,
+      "label": "e3_kafka_4consumers"
+    }
+  ],
+  "label": "e3_kafka_4consumers",
+  "saved_at": 1780529415.3840094
+}

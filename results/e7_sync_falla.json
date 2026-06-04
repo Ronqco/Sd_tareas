@@ -1,0 +1,70 @@
+{
+  "total_requests": 999,
+  "total_attempts": 999,
+  "hits": 896,
+  "misses": 103,
+  "hit_rate": 0.8969,
+  "miss_rate": 0.1031,
+  "throughput_rps": 38.423,
+  "elapsed_seconds": 26.0,
+  "latency_p50_ms": 0.273,
+  "latency_p95_ms": 40.501,
+  "avg_latency_hit_ms": 0.403,
+  "avg_latency_miss_ms": 1448.371,
+  "eviction_rate_per_min": 0,
+  "total_evictions": 0,
+  "cache_efficiency": -148.97,
+  "per_query": {
+    "Q1": {
+      "total": 199,
+      "hits": 189,
+      "misses": 10,
+      "hit_rate": 0.9497,
+      "p50_ms": 0.27,
+      "p95_ms": 11.346
+    },
+    "Q2": {
+      "total": 195,
+      "hits": 178,
+      "misses": 17,
+      "hit_rate": 0.9128,
+      "p50_ms": 0.273,
+      "p95_ms": 44.799
+    },
+    "Q3": {
+      "total": 205,
+      "hits": 195,
+      "misses": 10,
+      "hit_rate": 0.9512,
+      "p50_ms": 0.265,
+      "p95_ms": 5.688
+    },
+    "Q4": {
+      "total": 209,
+      "hits": 158,
+      "misses": 51,
+      "hit_rate": 0.756,
+      "p50_ms": 0.29,
+      "p95_ms": 6207.109
+    },
+    "Q5": {
+      "total": 191,
+      "hits": 176,
+      "misses": 15,
+      "hit_rate": 0.9215,
+      "p50_ms": 0.272,
+      "p95_ms": 16.624
+    }
+  },
+  "total_retries": 0,
+  "total_recoveries": 0,
+  "total_dlq": 0,
+  "retry_rate": 0.0,
+  "recovery_rate": 0.0,
+  "dlq_rate": 0.0,
+  "peak_backlog_size": 0,
+  "recovery_time_s": null,
+  "backlog_snapshots": [],
+  "label": "e7_sync_falla",
+  "saved_at": 1780529891.869836
+}
