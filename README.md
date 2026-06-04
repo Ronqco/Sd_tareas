@@ -343,5 +343,6 @@ En el desarrollo de este proyecto se utilizaron herramientas de inteligencia art
 - **Visualización de datos:** generación de gráficos a partir de los datos crudos de los experimentos (JSONs en `results/`) para facilitar el análisis comparativo entre escenarios.
 - **Auditoría y corrección de código:** revisión del código de los servicios y scripts para detectar errores, inconsistencias y oportunidades de mejora; las correcciones fueron evaluadas y aplicadas por el equipo.
 - **Investigación sobre Apache Kafka:** consultas sobre conceptos, patrones de diseño y mejores prácticas de Kafka (grupos de consumo, particiones, backoff exponencial, Dead Letter Queue, commit manual de offsets).
+- **Corrección ortográfica**
 
 El diseño del sistema, la implementación, los experimentos y el análisis de resultados fueron realizados por el equipo. El uso de IA se limitó a apoyo puntual en las áreas indicadas.
