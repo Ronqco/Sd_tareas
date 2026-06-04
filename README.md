@@ -332,3 +332,16 @@ El límite de consumidores útiles en un grupo es igual al número de particione
 retry_available_at = time.time() + (RETRY_DELAY_MS / 1000) × 2^retry_count
 ```
 Con `RETRY_DELAY_MS=200` y `MAX_RETRIES=5` el backoff acumulado es 6.2 s, diseñado para ser menor que la duración típica de una falla (8–15 s) pero suficiente para dar tiempo al backend de recuperarse.
+
+
+---
+
+## Declaración de uso de IA
+
+En el desarrollo de este proyecto se utilizaron herramientas de inteligencia artificial (Claude, Anthropic) como apoyo en las siguientes áreas:
+
+- **Visualización de datos:** generación de gráficos a partir de los datos crudos de los experimentos (JSONs en `results/`) para facilitar el análisis comparativo entre escenarios.
+- **Auditoría y corrección de código:** revisión del código de los servicios y scripts para detectar errores, inconsistencias y oportunidades de mejora; las correcciones fueron evaluadas y aplicadas por el equipo.
+- **Investigación sobre Apache Kafka:** consultas sobre conceptos, patrones de diseño y mejores prácticas de Kafka (grupos de consumo, particiones, backoff exponencial, Dead Letter Queue, commit manual de offsets).
+
+El diseño del sistema, la implementación, los experimentos y el análisis de resultados fueron realizados por el equipo. El uso de IA se limitó a apoyo puntual en las áreas indicadas.
